@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home / X</title>
+    <link rel="stylesheet" href="favicon.ico" type="image/ico">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="./dist/output.css">
+
+</head>
+
+<body class="bg-black text-white font-sans">
+    <div class="flex mx-auto container ">
+        <div class="first md:w-1/3 mr-14">
+            <div class=" top-0 fixed ">
+                <div class="logo invert my-4 -ml-3 md:ml-1  cursor-pointer">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"
+                        class=" w-7 mx-7 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                        <g>
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+
+                <div class="sidebar h-screen overflow-y-auto md:-mt-2">
+                    <ul class="flex flex-col space-y-4 text-2xl p-[14px] md:px-8">
+                        <li class="flex cursor-pointer justify-start items-start gap-3"><span
+                                class="material-symbols-outlined text-3xl">home</span><span
+                                class="hidden md:block">Home</span></li>
+                        <li class="flex cursor-pointer justify-start items-start gap-3"><span
+                                class="material-symbols-outlined text-3xl">search</span><span
+                                class="hidden md:block">Explore</span></li>
+                        <li class="flex cursor-pointer justify-start items-start gap-3"><span
+                                class="material-symbols-outlined text-3xl">notifications</span><span
+                                class="hidden md:block">Notification</span></li>
+                        <li class="flex cursor-pointer justify-start items-start gap-3"><span
+                                class="material-symbols-outlined text-3xl">mail</span><span
+                                class="hidden md:block">Messages</span></li>
+                        <li class="flex cursor-pointer justify-start items-start gap-3"><span
+                                class="material-symbols-outlined text-3xl">analytics</span><span
+                                class="hidden md:block">Grok</span></li>
+                        <li class="flex cursor-pointer justify-start items-start gap-3"><span
+                                class="material-symbols-outlined text-3xl">bookmark</span><span
+                                class="hidden md:block">Bookmarks</span></li>
+                        <li class=" hidden  md:flex cursor-pointer justify-start items-start gap-3"><span
+                                class="material-symbols-outlined text-3xl">group</span><span
+                                class="hidden md:block">Communities</span></li>
+                        <li class=" hidden  md:flex cursor-pointer justify-start items-start gap-3"><span
+                                class="material-symbols-outlined text-3xl">Verified</span><span
+                                class="hidden md:block">Premium</span></li>
+                        <li class=" hidden  md:flex cursor-pointer justify-start items-start gap-3"><span
+                                class="material-symbols-outlined text-3xl">flash_on</span><span
+                                class="hidden md:block">Verified Orgs</span></li>
+                        <li class="flex cursor-pointer justify-start items-start gap-3"><span
+                                class="material-symbols-outlined text-3xl">person</span><span
+                                class="hidden md:block">Profile</span></li>
+                        <li class="flex cursor-pointer justify-start items-start gap-3"><span
+                                class="material-symbols-outlined text-3xl">more_horiz</span><span
+                                class="hidden md:block">More</span></li>
+                        <button
+                            class="bg-white hover:bg-slate-200 hidden md:block text-black border rounded-full px-[80px] py-2 font-semibold">Post</button>
+                    </ul>
+                    <div class="flex pt-1 pb-2 pl-2 mt-3 items-center hover:bg-slate-950 rounded-full md:ml-8 mr-8 ">
+                        <div class="w-10 h-10 overflow-hidden mt-2 rounded-full"><img class="h-full object-cover"
+                                src="https://static.scientificamerican.com/sciam/cache/file/2AE14CDD-1265-470C-9B15F49024186C10_source.jpg?w=1200"
+                                alt=""></div>
+                        <div class=" hidden md:block md:ml-2">
+                            <h1>Aizen</h1>
+                            <h1>@_A1Z3NNN</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="second w-[87%] md:w-4/5 overflow-x-hidden  border-[1px]  border-x-gray-800 border-y-black">
+            <div class="flex">
+                <div
+                    class="left h-12 w-1/2 border border-x-black border-t-black border-b-gray-800 flex justify-center items-center">
+                    For You</div>
+                <div
+                    class="right h-12 w-1/2 border border-r-black border-l-gray-800 border-t-black border-b-gray-800 flex justify-center items-center">
+                    Following
+                </div>
+            </div>
+            <div class="flex items-center px-4 py-3 md:py-4">
+                <div class="w-10 h-10 overflow-hidden rounded-full">
+                    <img class="h-full object-cover"
+                        src="https://static.scientificamerican.com/sciam/cache/file/2AE14CDD-1265-470C-9B15F49024186C10_source.jpg?w=1200"
+                        alt="">
+                </div>
+                <div class="post w-full"><input type="text" placeholder="What is happening?!"
+                        class="bg-black text-white ml-2 w-full md:text-xl"></div>
+            </div>
+            <div
+                class="text-sky-500 cursor-pointer hover:bg-slate-900 max-w-fit rounded-xl px-1 font-semibold hidden md:flex items-center ml-16 -mt-3 gap-[2px]">
+                <span class="material-symbols-outlined text-lg">public</span>Everyone can reply
+            </div>
+            <div class="border md:mt-5 ml-14 mr-14 border-gray-800"></div>
+            <div class="flex place-content-between ml-16 mr-16">
+                <div class="flex text-sky-500 gap-4 mt-3">
+                    <span class="material-symbols-outlined">image</span>
+                    <span class="material-symbols-outlined">GIF_Box</span>
+                    <span class="material-symbols-outlined">Face</span>
+                    <span class="material-symbols-outlined">Calendar_Today</span>
+                    <span class="material-symbols-outlined ">Location_on</span>
+                </div>
+                <button
+                    class="bg-white md:block hidden hover:bg-slate-200 text-black border rounded-full px-4 py-1 mt-3 font-semibold">Post</button>
+            </div>
+            <div class="border mt-5 border-gray-800"></div>
+            <div class="bg-black hover:bg-gray-950 h-12 flex justify-center items-center">
+                <div class="flex justify-center  text-sky-500">Show 252 posts</div>
+            </div>
+            <div class="border border-gray-800"></div>
+            <div class="content">
+                <div class="username flex gap-2 px-4 py-4">
+                    <div class="w-10 h-10 mt-2 overflow-hidden rounded-full"><img class="h-full object-cover"
+                            src="https://ew.com/thmb/913S60dgphjFSD7ABxPAim6YKck=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/homelander-the-boys-061824-af8fa4b147dc463c828312a57e27ff13.jpg"
+                            alt=""></div>
+                    <div class="py-2 truncate max-w-[70px] whitespace-nowrap overflow-hidden md:max-w-none md:overflow-visible md:whitespace-normal font-semibold">Homelander
+                    </div>
+                    <div class="py-2 truncate max-w-[70px] whitespace-nowrap overflow-hidden md:max-w-none md:overflow-visible md:whitespace-normal font-semibold text-gray-500">@homelander
+                    </div>
+                    <div class="py-2 text-gray-500">· 10D</div>
+                </div>
+                <div>
+                    <div class="mx-16 -mt-4 mb-3">Homelander saves the world from the alien invasion and sacrificed
+                        himself instead. The world will remember him for his noble sacrifice.</div>
+                    <div class=" ml-16 mr-16 overflow-hidden rounded-lg"><img class="object-cover"
+                            src="https://th-i.thgim.com/public/entertainment/movies/6lm2pb/article67600645.ece/alternates/LANDSCAPE_1200/Homelander.png"
+                            alt=""></div>
+                </div>
+                <div class="flex place-content-between items-center ml-16 mr-16">
+                    <div class="flex md:gap-8 text-xs md:text-sm mt-4 gap-[14px] md:ml-0 -ml-12">
+                        <div class="flex gap-1 items-center text-gray-500 hover:text-blue-500"><span
+                                class="material-symbols-outlined text-sm md:text-lg">chat_bubble</span>37K</div>
+                        <div class="flex gap-1 items-center text-gray-500 hover:text-blue-500"><span
+                                class="material-symbols-outlined text-sm md:text-lg">Repeat</span>14K</div>
+                        <div class="flex gap-1 items-center text-gray-500 hover:text-blue-500"><span
+                                class="material-symbols-outlined text-sm md:text-lg">Favorite</span>22K</div>
+                        <div class="flex gap-1 items-center text-gray-500 hover:text-blue-500"><span
+                                class="material-symbols-outlined text-sm md:text-lg">bar_chart_4_bars</span>127K</div>
+                    </div>
+                    <div class="flex gap-2 mt-4 ml-8 md:ml-0">
+                        <div class="text-gray-500 hover:text-blue-500"><span
+                                class="material-symbols-outlined text-sm md:text-lg">Bookmark</span></div>
+                        <div class="text-gray-500 hover:text-blue-500"><span
+                                class="material-symbols-outlined text-sm md:text-lg">Upload</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="border mt-5 border-gray-800"></div>
+            <div class="content">
+                <div class="username flex gap-2 px-4 py-4">
+                    <div class="w-10 h-10 overflow-hidden mt-2 rounded-full"> <img class="h-full object-cover"
+                            src="https://media.assettype.com/cinemaexpress%2F2024-06%2F2145b5bf-a222-41d6-a109-4cb7a615dcc8%2FJack_Quaid_photo_credit_Sarah_Coulter_Paramount_v2_H_2023.webp?w=1024&auto=format%2Ccompress&fit=max"
+                            alt=""></div>
+                    <div class="py-2 truncate max-w-[70px] whitespace-nowrap overflow-hidden md:max-w-none md:overflow-visible md:whitespace-normal font-semibold">Hughie</div>
+                    <div class="py-2 truncate max-w-[70px] whitespace-nowrap overflow-hidden md:max-w-none md:overflow-visible md:whitespace-normal font-semibold text-gray-500">
+                        @crybabyhughie</div>
+                    <div class="py-2 text-gray-500">· 4D</div>
+                </div>
+                <div>
+                    <div class="mx-16 -mt-4 mb-3">Hughie the pathetic crybaby still blames A-Train for killing his
+                        ex
+                        girlfriend even after pounding one of the hottest bitch in the show Starlight, what a
+                        faggot.
+                    </div>
+                    <div class=" ml-16 mr-16 rounded-lg overflow-hidden"><img class="h-full object-cover"
+                            src="https://www.themarysue.com/wp-content/uploads/2022/07/Hughie-The-Boys-copy.jpg?w=1200"
+                            alt=""></div>
+                </div>
+                <div class="flex place-content-between items-center ml-16 mr-16">
+                    <div class="flex md:gap-8 text-xs md:text-sm mt-4 gap-[14px] md:ml-0 -ml-12">
+                        <div class="flex gap-1 items-center text-gray-500 hover:text-blue-500"><span
+                                class="material-symbols-outlined text-sm md:text-lg">chat_bubble</span>37K</div>
+                        <div class="flex gap-1 items-center text-gray-500 hover:text-blue-500"><span
+                                class="material-symbols-outlined text-sm md:text-lg">Repeat</span>14K</div>
+                        <div class="flex gap-1 items-center text-gray-500 hover:text-blue-500"><span
+                                class="material-symbols-outlined text-sm md:text-lg">Favorite</span>22K</div>
+                        <div class="flex gap-1 items-center text-gray-500 hover:text-blue-500"><span
+                                class="material-symbols-outlined text-sm md:text-lg">bar_chart_4_bars</span>127K</div>
+                    </div>
+                    <div class="flex gap-2 mt-4 ml-8 md:ml-0">
+                        <div class="text-gray-500 hover:text-blue-500"><span
+                                class="material-symbols-outlined text-sm md:text-lg">Bookmark</span></div>
+                        <div class="text-gray-500 hover:text-blue-500"><span
+                                class="material-symbols-outlined text-sm md:text-lg">Upload</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="border mt-5 border-gray-800"></div>
+            <div class="content">
+                <div class="username flex gap-2 px-4 py-4">
+                    <div class="w-10 h-10 overflow-hidden mt-2 rounded-full"><img class="h-full object-cover"
+                            src="https://tvline.com/wp-content/uploads/2024/06/the-boys-frenchie-2.jpg" alt="">
+                    </div>
+                    <div class="py-2 truncate max-w-[70px] whitespace-nowrap overflow-hidden md:max-w-none md:overflow-visible md:whitespace-normal font-semibold">Frenchy
+                    </div>
+                    <div class="py-2 truncate max-w-[70px] whitespace-nowrap overflow-hidden md:max-w-none md:overflow-visible md:whitespace-normal font-semibold text-gray-500">@gayfrenchy
+                    </div>
+                    <div class="py-2 text-gray-500">· 5D</div>
+                </div>
+                <div>
+                    <div class="mx-16 -mt-4 mb-3">Frenchy is now the officially the most dumbass character in the
+                        show
+                        for becoming gay for COLIN even after having the hottest japanese cutie for whome people
+                        just
+                        nut from just the thought of her JAV blurred ass!!
+                    </div>
+                    <div class=" ml-16 mr-16 overflow-hidden rounded-lg"><img class="h-full object-cover"
+                            src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2024/07/frenchie-kimiko-and-colin-the-boys.jpg"
+                            alt=""></div>
+                </div>
+                <div class="flex place-content-between items-center ml-16 mr-16">
+                    <div class="flex md:gap-8 text-xs md:text-sm mt-4 gap-[14px] md:ml-0 -ml-12">
+                        <div class="flex gap-1 items-center text-gray-500 hover:text-blue-500"><span
+                                class="material-symbols-outlined text-sm md:text-lg">chat_bubble</span>37K</div>
+                        <div class="flex gap-1 items-center text-gray-500 hover:text-blue-500"><span
+                                class="material-symbols-outlined text-sm md:text-lg">Repeat</span>14K</div>
+                        <div class="flex gap-1 items-center text-gray-500 hover:text-blue-500"><span
+                                class="material-symbols-outlined text-sm md:text-lg">Favorite</span>22K</div>
+                        <div class="flex gap-1 items-center text-gray-500 hover:text-blue-500"><span
+                                class="material-symbols-outlined text-sm md:text-lg">bar_chart_4_bars</span>127K</div>
+                    </div>
+                    <div class="flex gap-2 mt-4 ml-8 md:ml-0">
+                        <div class="text-gray-500 hover:text-blue-500"><span
+                                class="material-symbols-outlined text-sm md:text-lg">Bookmark</span></div>
+                        <div class="text-gray-500 hover:text-blue-500"><span
+                                class="material-symbols-outlined text-sm md:text-lg">Upload</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="border mt-5 border-gray-800"></div>
+            <div class="content">
+                <div class="username flex gap-2 px-4 py-4">
+                    <div class="w-10 h-10 overflow-hidden mt-2 rounded-full"><img class="h-full object-cover"
+                            src="https://static1.srcdn.com/wordpress/wp-content/uploads/2022/03/The-Boys-season-3-poster-Billy-Butcher.jpg?q=50&fit=crop&w=1140&h=&dpr=1.5"
+                            alt=""></div>
+                    <div
+                        class="py-2 truncate max-w-[70px] whitespace-nowrap overflow-hidden md:max-w-none md:overflow-visible md:whitespace-normal font-semibold">
+                        William Butcher</div>
+                    <div
+                        class="py-2 truncate max-w-[80px] whitespace-nowrap overflow-hidden md:max-w-none md:overflow-visible md:whitespace-normal text-gray-500">
+                        @chadbutcher</div>
+                    <div class="py-2 text-gray-500">· 3D</div>
+                </div>
+                <div>
+                    <div class="mx-16 -mt-4 mb-3">William Butcher is now one of the figure of sigma male and the
+                        gigachad community for leading the boys group to kill homelander even after being humanm
+                        people
+                        call him the example of having "gaand mae guda hone".</div>
+                    <div class="overflow-hidden ml-16 mr-16 rounded-lg"><img class="h-full object-cover"
+                            src="https://www.slashfilm.com/img/gallery/the-12-best-billy-butcher-moments-on-the-boys/intro-1660230334.jpg"
+                            alt=""></div>
+                </div>
+                <div class="flex place-content-between items-center ml-16 mr-16">
+                    <div class="flex md:gap-8 text-xs md:text-sm mt-4 gap-[14px] md:ml-0 -ml-12">
+                        <div class="flex gap-1 items-center text-gray-500 hover:text-blue-500"><span
+                                class="material-symbols-outlined text-sm md:text-lg">chat_bubble</span>37K</div>
+                        <div class="flex gap-1 items-center text-gray-500 hover:text-blue-500"><span
+                                class="material-symbols-outlined text-sm md:text-lg">Repeat</span>14K</div>
+                        <div class="flex gap-1 items-center text-gray-500 hover:text-blue-500"><span
+                                class="material-symbols-outlined text-sm md:text-lg">Favorite</span>22K</div>
+                        <div class="flex gap-1 items-center text-gray-500 hover:text-blue-500"><span
+                                class="material-symbols-outlined text-sm md:text-lg">bar_chart_4_bars</span>127K</div>
+                    </div>
+                    <div class="flex gap-2 mt-4 ml-8 md:ml-0">
+                        <div class="text-gray-500 hover:text-blue-500"><span
+                                class="material-symbols-outlined text-sm md:text-lg">Bookmark</span></div>
+                        <div class="text-gray-500 hover:text-blue-500"><span
+                                class="material-symbols-outlined text-sm md:text-lg">Upload</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="border mt-5 border-gray-800"></div>
+            <div class="bg-black hover:bg-gray-950 h-12 flex justify-center items-center">
+                <div class="flex justify-center  text-sky-500">Show all posts</div>
+            </div>
+        </div>
+        <div class="third hidden lg:block w-1/3">
+            <div class=" z-10 bg-black top-0 sticky">
+                <div class="flex">
+                    <div class="h-12 w-full flex">
+                    </div>
+                    <div class="search bg-black px-3 pt-1">
+                        <input type="text" placeholder="Search"
+                            class="rounded-full px-4 py-2 bg-black text-white border border-gray-800 w-80">
+                    </div>
+                </div>
+            </div>
+            <div class="-top-20 sticky">
+                <div class="card bg-black border border-gray-800 m-3 rounded-2xl px-4 py-2 w-80">
+                    <h1 class="font-bold pb-4 text-2xl">What's happening</h1>
+                    <div class="flex">
+                        <div class="box w-20 h-20 rounded-lg overflow-hidden"><img
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Ana_de_Armas_at_the_2024_Toronto_International_Film_Festival_05_%28cropped%29.jpg/330px-Ana_de_Armas_at_the_2024_Toronto_International_Film_Festival_05_%28cropped%29.jpg"
+                                alt="" class=" object-cover"></div>
+                        <div>
+                            <div class="text-lg font-semibold pl-3 ">Ana De Armas</div>
+                            <div class="text-xs font-normal pl-3 text-gray-500">LIVE</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="text-xs text-gray-500 pt-4">Sports</div>
+                        <div class="font-semibold">#Gambling</div>
+                        <div class="text-xs text-gray-500">456M posts</div>
+                    </div>
+                    <div>
+                        <div class="text-xs text-gray-500 pt-4">Trending in India</div>
+                        <div class="font-semibold">Net Profit</div>
+                        <div class="text-xs text-gray-500">40K posts</div>
+                    </div>
+                    <div>
+                        <div class="text-xs text-gray-500 pt-4">Entertainment</div>
+                        <div class="font-semibold">#BreakingBad</div>
+                        <div class="text-xs text-gray-500">101K posts</div>
+                    </div>
+                    <div>
+                        <div class="text-xs text-gray-500 pt-4">Trending</div>
+                        <div class="font-semibold">#AnaDeArmas</div>
+                        <div class="text-xs text-gray-500">309M posts</div>
+                    </div>
+                    <div class="pt-6 pb-2 text-sky-500">Show More</div>
+
+                </div>
+                <div class="card bg-black border border-gray-800 m-3 rounded-2xl px-4 py-2 w-80">
+                    <h1 class="font-bold pb-4 text-2xl">Who to follow</h1>
+                    <div class="flex mt-3 items-center place-content-between">
+                        <div class="flex">
+                            <div class="w-10 h-10 overflow-hidden mt-2 rounded-full"><img class="h-full object-cover"
+                                    src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2024/06/custom-image-of-aizen-with-aizen-vs-ichigo-in-the-background-in-bleach.png?q=70&fit=crop&w=1140&h=&dpr=1"
+                                    alt=""></div>
+                            <div class="ml-2">
+                                <h1>Aizen</h1>
+                                <h1>@_AIZENN</h1>
+                            </div>
+                        </div>
+                        <button
+                            class="bg-white hover:bg-slate-200 text-black border rounded-full px-4 py-1 font-semibold ml-9">Follow</button>
+                    </div>
+
+
+                    <div class="flex mt-3 items-center place-content-between">
+                        <div class="flex">
+                            <div class="w-10 h-10 overflow-hidden mt-2 rounded-full"><img class="h-full object-cover"
+                                    src="https://ew.com/thmb/913S60dgphjFSD7ABxPAim6YKck=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/homelander-the-boys-061824-af8fa4b147dc463c828312a57e27ff13.jpg"
+                                    alt=""></div>
+                            <div class="ml-2">
+                                <h1>Homelander</h1>
+                                <h1>@homelander</h1>
+                            </div>
+                        </div>
+                        <button
+                            class="bg-white hover:bg-slate-200 text-black border rounded-full px-4 py-1 font-semibold ml-9">Follow</button>
+                    </div>
+                    <div class="flex mt-3 items-center place-content-between">
+                        <div class="flex">
+                            <div class="w-10 h-10 overflow-hidden mt-2 rounded-full"><img class="h-full object-cover"
+                                    src="https://media.assettype.com/cinemaexpress%2F2024-06%2F2145b5bf-a222-41d6-a109-4cb7a615dcc8%2FJack_Quaid_photo_credit_Sarah_Coulter_Paramount_v2_H_2023.webp?w=1024&auto=format%2Ccompress&fit=max"
+                                    alt=""></div>
+                            <div class="ml-2">
+                                <h1>Hughie</h1>
+                                <h1>@crybabyhughie</h1>
+                            </div>
+                        </div>
+                        <button
+                            class="bg-white hover:bg-slate-200 text-black border rounded-full px-4 py-1 font-semibold ml-9">Follow</button>
+                    </div>
+                    <div class="pt-6 pb-2 text-sky-500">Show More</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
